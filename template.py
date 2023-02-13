@@ -62,6 +62,7 @@ bpy.context.scene.render.engine = 'BLENDER_EEVEE'
 bpy.context.scene.eevee.taa_render_samples = 2048
 bpy.context.scene.render.film_transparent  = True
 
+
 # Deleting default collection
 collection = bpy.data.collections.get("Collection")
 bpy.data.collections.remove(collection)
